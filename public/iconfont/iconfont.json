@@ -1,0 +1,44 @@
+{
+  "id": "4930045",
+  "name": "gptbots-chrome",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "36273125",
+      "name": "tips",
+      "font_class": "tips",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    },
+    {
+      "icon_id": "40128389",
+      "name": "刷新",
+      "font_class": "shuaxin",
+      "unicode": "e785",
+      "unicode_decimal": 59269
+    },
+    {
+      "icon_id": "44403995",
+      "name": "stop",
+      "font_class": "Group-470030",
+      "unicode": "e814",
+      "unicode_decimal": 59412
+    },
+    {
+      "icon_id": "44403996",
+      "name": "start",
+      "font_class": "Frame",
+      "unicode": "e815",
+      "unicode_decimal": 59413
+    },
+    {
+      "icon_id": "37697392",
+      "name": "复制",
+      "font_class": "fuzhi",
+      "unicode": "e6f5",
+      "unicode_decimal": 59125
+    }
+  ]
+}

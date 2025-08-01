@@ -1,0 +1,52 @@
+{
+  "manifest_version": 3,
+  "name": "GPTBots Assistant",
+  "version": "1.0.3",
+  "description": "GPTBots,Human handoff notifications,Reply Suggestions",
+  "icons": {
+    "16": "imgs/logo.png",
+    "48": "imgs/logo.png",
+    "128": "imgs/logo.png"
+  },
+  "permissions": [
+    "sidePanel",
+    "contextMenus",
+    "scripting",
+    "tabs",
+    "activeTab",
+    "notifications",
+    "webRequest",
+    "storage"
+  ],
+  "host_permissions": [
+    "*://*/*"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "点击打开侧边栏",
+    "default_icon": {
+      "16": "imgs/logo.png",
+      "48": "imgs/logo.png",
+      "128": "imgs/logo.png"
+    }
+  },
+  "side_panel": {
+    "default_path": "side_panel/index.html",
+    "default_width": 490
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://chat.line.biz/*"
+      ],
+      "js": [
+        "content-scripts/line/index.js",
+        "content-scripts/line/user-reply.js"
+      ],
+      "run_at": "document_end"
+    }
+  ]
+}
