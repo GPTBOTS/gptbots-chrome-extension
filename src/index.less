@@ -1,0 +1,58 @@
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+  width: 6px;
+  height: 10px;
+  background: #ccc;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-track-piece {
+  background: #f5f5f5;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  height: 100%;
+  max-width: 800px;
+  min-width: 364px;
+  margin: 0 auto !important;
+}
+
+#root {
+  min-height: 100%;
+  padding: 16px;
+  overflow-y: auto;
+}
+
+.support-item {
+  margin-right: 8px;
+  display: inline-flex;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 6px;
+  border: 1px solid #dcdee1;
+  padding: 9px 12px;
+  img {
+    margin-right: 8px;
+  }
+}
+
+.primary-btn.ant-btn-primary {
+  padding: 0 12px;
+  color: #88ffdd;
+  background: #033646;
+  border-color: #033646;
+  &:hover,
+  &:focus,
+  &:active {
+    color: #38f1bd;
+    background: #033646;
+    border-color: #033646;
+  }
+}
