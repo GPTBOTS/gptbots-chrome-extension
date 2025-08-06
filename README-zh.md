@@ -1,7 +1,8 @@
 # gptbots-chrome-extension
 [English](./README.md) | 中文
 
-一个基于浏览器插件技术的AI客服助手
+一个基于浏览器插件技术的AI客服助手。
+基于LINE WEB后台可提供自动回复用户消息，接收人工服务请求提醒等功能。后续将陆续支持Telegram、WhatsApp等更多平台。
 
 <img src="./gptbots-assistant-zh.png" width="300" />
 
