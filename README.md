@@ -1,7 +1,8 @@
 # gptbots-chrome-extension
 English | [中文](./README-zh.md)
 
-An AI customer service assistant based on browser extension technology
+An AI customer service assistant based on browser extension technology.
+Based on the LINE WEB backend, it provides features such as automatic replies to user messages and notifications for manual service requests. Support for more platforms like Telegram and WhatsApp will be gradually introduced in the future.
 
 <img src="./gptbots-assistant-en.png" width="300" />
 
